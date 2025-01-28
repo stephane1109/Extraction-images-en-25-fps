@@ -75,7 +75,7 @@ def extraire_images_25fps_intervalle(video_path, repertoire, debut, fin, video_t
     return images_repertoire
 
 # Interface Streamlit
-st.title("Extraction d'images d'une vidéo YouTube à 25fps avec qualité optimale")
+st.title("Extraction d'images d'une vidéo YouTube à 25fps")
 
 # Entrée pour l'URL de la vidéo
 url = st.text_input("Entrez l'URL de la vidéo YouTube :")
